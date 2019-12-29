@@ -53,7 +53,7 @@ public static string Method(Status status)
 {
     return status switch
     {
-        Status.Accepted => """",
+        Status.Accepted => "",
         _ => throw new ArgumentOutOfRangeException(nameof(status), status, null)
     };
 }
@@ -64,7 +64,7 @@ public static string Method(Status status)
 {
     return status switch
     {
-        Status.Accepted => """",
+        Status.Accepted => "",
         Status.Cooking => throw new NotImplementedException(),
         Status.Cooked => throw new NotImplementedException(),
         _ => throw new ArgumentOutOfRangeException(nameof(status), status, null)
