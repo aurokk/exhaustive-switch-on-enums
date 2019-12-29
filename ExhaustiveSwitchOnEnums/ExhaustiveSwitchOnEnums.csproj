@@ -9,7 +9,7 @@
     <PropertyGroup>
         <PackageId>ExhaustiveSwitchOnEnums</PackageId>
         <PackageVersion>1.0.1</PackageVersion>
-        <Authors>aurokk</Authors>
+        <Authors>aurokkez</Authors>
         <PackageLicenseUrl>https://github.com/aurokk/exhaustive-switch-on-enums/blob/master/LICENSE</PackageLicenseUrl>
         <PackageProjectUrl>https://github.com/aurokk/exhaustive-switch-on-enums</PackageProjectUrl>
         <PackageIconUrl>https://raw.githubusercontent.com/aurokk/exhaustive-switch-on-enums/master/Icons/roslyn.png</PackageIconUrl>
