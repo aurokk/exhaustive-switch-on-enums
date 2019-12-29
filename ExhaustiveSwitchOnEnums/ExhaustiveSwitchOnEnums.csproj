@@ -10,9 +10,9 @@
         <PackageId>ExhaustiveSwitchOnEnums</PackageId>
         <PackageVersion>1.0.1</PackageVersion>
         <Authors>aurokkez</Authors>
-        <PackageLicenseUrl>https://github.com/aurokk/exhaustive-switch-on-enums/blob/master/LICENSE</PackageLicenseUrl>
+        <PackageLicenseFile>./LICENSE.md</PackageLicenseFile>
         <PackageProjectUrl>https://github.com/aurokk/exhaustive-switch-on-enums</PackageProjectUrl>
-        <PackageIconUrl>https://raw.githubusercontent.com/aurokk/exhaustive-switch-on-enums/master/Icons/roslyn.png</PackageIconUrl>
+        <PackageIcon>./roslyn.png</PackageIcon>
         <RepositoryUrl>https://github.com/aurokk/exhaustive-switch-on-enums</RepositoryUrl>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <Description>Generates warning if switch or switch expression on enum is not exhaustive</Description>
@@ -35,6 +35,11 @@
     <ItemGroup>
         <None Update="tools\*.ps1" CopyToOutputDirectory="Always" Pack="true" PackagePath=""/>
         <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="../Icons/roslyn.png" CopyToOutputDirectory="Always" Pack="true" PackagePath=""/>
+        <None Include="../LICENSE.md" CopyToOutputDirectory="Always" Pack="true" PackagePath=""/>
     </ItemGroup>
 
 </Project>
