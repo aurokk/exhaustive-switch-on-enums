@@ -8,11 +8,11 @@
 
     <PropertyGroup>
         <PackageId>ExhaustiveSwitchOnEnums</PackageId>
-        <PackageVersion>1.0.0.0</PackageVersion>
+        <PackageVersion>1.0.1</PackageVersion>
         <Authors>aurokk</Authors>
         <PackageLicenseUrl>https://github.com/aurokk/exhaustive-switch-on-enums/blob/master/LICENSE</PackageLicenseUrl>
         <PackageProjectUrl>https://github.com/aurokk/exhaustive-switch-on-enums</PackageProjectUrl>
-        <PackageIconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</PackageIconUrl>
+        <PackageIconUrl>https://raw.githubusercontent.com/aurokk/exhaustive-switch-on-enums/master/Icons/roslyn.png</PackageIconUrl>
         <RepositoryUrl>https://github.com/aurokk/exhaustive-switch-on-enums</RepositoryUrl>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <Description>Generates warning if switch or switch expression on enum is not exhaustive</Description>
