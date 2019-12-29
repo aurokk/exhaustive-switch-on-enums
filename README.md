@@ -1,6 +1,7 @@
 # Exhaustive Switch On Enums
 
-This is a roslyn analyzer that solves the problem of not exhaustive enums.
+This roslyn analyzer solves the problem of non-exhaustive switches 
+on enums. It generates a warning when a switch is non-exhaustive.
 
 ## Examples
 
@@ -13,7 +14,7 @@ public enum Status
 }
 ```
 
-### Not-exhaustive switch
+### Non-exhaustive switch
 
 ```c#
 public static void Method(Status status)
@@ -46,7 +47,7 @@ public static void Method(Status status)
 ```
 
 
-### Not-exhaustive switch expression
+### Non-exhaustive switch expression
 
 ```c#
 public static string Method(Status status)
@@ -74,7 +75,7 @@ public static string Method(Status status)
 
 ## Treat warnings as errors
 
-Also, you can make compiler treat warning about not-exhaustive switch as error this way.
+Also, you can make a compiler treat the warning as an error, like this:
 
 ```
 <PropertyGroup>
