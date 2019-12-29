@@ -77,9 +77,9 @@ public static string Method(Status status)
 Also, you can make compiler treat warning about not-exhaustive switch as error this way.
 
 ```
-    <PropertyGroup>
-        <OutputType>Exe</OutputType>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
-        <WarningsAsErrors>ExhaustiveSwitchOnEnums</WarningsAsErrors>
-    </PropertyGroup>
+<PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <WarningsAsErrors>ExhaustiveSwitchOnEnums</WarningsAsErrors>
+</PropertyGroup>
 ```
