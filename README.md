@@ -84,3 +84,7 @@ Also, you can make a compiler treat the warning as an error, like this:
     <WarningsAsErrors>ExhaustiveSwitchOnEnums</WarningsAsErrors>
 </PropertyGroup>
 ```
+
+## Issues
+
+Feel free to write me about any problems.
