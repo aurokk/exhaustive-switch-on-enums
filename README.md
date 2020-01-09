@@ -1,5 +1,7 @@
 # Exhaustive Switch On Enums
 
+![Nuget](https://img.shields.io/nuget/v/ExhaustiveSwitchOnEnums?style=plastic)
+
 This roslyn analyzer solves the problem of non-exhaustive switches 
 on enums. It generates a warning when a switch is non-exhaustive.
 
